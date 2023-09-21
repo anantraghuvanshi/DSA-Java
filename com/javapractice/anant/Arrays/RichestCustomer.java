@@ -1,4 +1,4 @@
-package com.javapractic.anant.Arrays;
+package com.javapractice.anant.Arrays;
 
 public class RichestCustomer {
 
