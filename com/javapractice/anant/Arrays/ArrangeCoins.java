@@ -7,14 +7,28 @@ public class ArrangeCoins {
 
     }
     public int arrangeCoins(int n) {
-        int remainingCoins = n;
-        int currentRow = 1;
+//        int remainingCoins = n;
+//        int currentRow = 1;
+//
+//        while (remainingCoins >= currentRow) {
+//            remainingCoins -= currentRow;
+//            currentRow++;
+//        }
+//
+//        return currentRow - 1;
+//    }
+    //using binary search
 
-        while (remainingCoins >= currentRow) {
-            remainingCoins -= currentRow;
-            currentRow++;
+        long start = 0;
+        long end = n;
+        while(start <= end) {
+            long mid =  start + (end-start)/2;
+            long total = mid * (mid + 1) / 2;
+            if (total == n) return (int) mid;
+            if (total < n) start = mid + 1;
+            else end = mid - 1;
         }
 
-        return currentRow - 1;
-    }
+        return (int) end;
+        }
 }
