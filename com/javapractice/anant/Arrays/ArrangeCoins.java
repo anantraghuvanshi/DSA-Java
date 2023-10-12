@@ -6,8 +6,8 @@ public class ArrangeCoins {
     public static void main(String[] args) {
 
     }
-    public int arrangeCoins(int n) {
-//        int remainingCoins = n;
+    public int arrangeCoins(int target) {
+//        int remainingCoins = target;
 //        int currentRow = 1;
 //
 //        while (remainingCoins >= currentRow) {
@@ -20,12 +20,12 @@ public class ArrangeCoins {
     //using binary search
 
         long start = 0;
-        long end = n;
+        long end = target;
         while(start <= end) {
             long mid =  start + (end-start)/2;
             long total = mid * (mid + 1) / 2;
-            if (total == n) return (int) mid;
-            if (total < n) start = mid + 1;
+            if (total == target) return (int) mid;
+            if (total < target) start = mid + 1;
             else end = mid - 1;
         }
 
