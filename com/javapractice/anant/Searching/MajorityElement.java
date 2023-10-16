@@ -1,4 +1,4 @@
-package com.javapractice.anant.Arrays;
+package com.javapractice.anant.Searching;
 
 import java.util.ArrayList;
 import java.util.List;

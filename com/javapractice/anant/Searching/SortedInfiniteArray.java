@@ -1,4 +1,4 @@
-package com.javapractice.anant.Arrays;
+package com.javapractice.anant.Searching;
 
 //Find position of an element in a sorted infinite array
 public class SortedInfiniteArray {

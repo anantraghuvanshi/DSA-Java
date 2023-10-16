@@ -1,4 +1,4 @@
-package com.javapractice.anant.Arrays;
+package com.javapractice.anant.Searching;
 
 //https://leetcode.com/problems/search-insert-position/description/
 public class SearchInsertPosition {

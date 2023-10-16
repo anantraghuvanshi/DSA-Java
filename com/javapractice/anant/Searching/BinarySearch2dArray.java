@@ -1,4 +1,4 @@
-package com.javapractice.anant.Arrays;
+package com.javapractice.anant.Searching;
 
 public class BinarySearch2dArray {
 

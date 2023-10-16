@@ -1,4 +1,4 @@
-package com.javapractice.anant.Arrays;
+package com.javapractice.anant.Searching;
 
 //https://leetcode.com/problems/single-element-in-a-sorted-array/
 public class SingleElementInASortedArray {
