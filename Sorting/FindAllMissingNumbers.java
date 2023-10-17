@@ -17,7 +17,7 @@ public class FindAllMissingNumbers {
             else i++;
         }
         for (int j = 0; j < nums.length; j++) {
-            if (nums[j] != j+1) ans.add(j+1);
+            if (nums[j] != j+1) ans.add(nums[j]);
         }
         return ans;
     }
