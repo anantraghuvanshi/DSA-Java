@@ -12,7 +12,7 @@ public class ChoosePairsSumLessThanTarget {
         int count = 0, n = nums.size();
 
         for (int i = 0; i < n; i++) {
-            int j = binarySearch(nums, i, target - nums[i]);
+            int j = binarySearch(nums, i, target - nums.get(i));
             count += j - i;
         }
         return count;
