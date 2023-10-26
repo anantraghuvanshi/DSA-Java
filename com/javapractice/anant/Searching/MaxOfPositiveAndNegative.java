@@ -15,7 +15,7 @@ public class MaxOfPositiveAndNegative {
 //        return Math.max(pos, neg);
 //    }
 
-    //Using binary Search
+    //Using Binary Search
     public int maximumCount(int[] nums) {
         int idx = firstPositiveIndex(nums);
         return Math.max(nums.length-idx, idx);
